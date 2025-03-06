@@ -4,5 +4,19 @@
     "background_color": "#b718b7",
     "short_name": "Bion",
     "id": "Bion",
-    "description": "App para acompanhar notícias oficiais do seu bairro, e apresentar proposta para torná-lo melhor!"
-  }
+    "description": "Seu momento On com a comunidade",
+    "start_url": "https://bionmobile.netlify.app/",
+    "display": "standalone",
+    "icons": [
+    {
+      "src": "assets/img/bion1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/bion1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
