@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bion</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/bion1.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="manifest" href="/manifest.json">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-3">
+                <a class="navbar-brand" href="#page-top">Bion</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#" onclick="openPopup('login-popup')">Entrar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" onclick="openPopup('register-popup')">Cadastre-se</a></li>                    
+                </div>
+            </div>
+        </nav>
+         <!-- Login Popup -->
+         <div id="login-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('login-popup')">&times;</span>
+                <h2>Entrar</h2>
+                <form id="login-form">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" required>
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Cadastro Popup -->
+        <div id="register-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('register-popup')">&times;</span>
+                <h2>Cadastre-se</h2>
+                <form id="register-form">
+                    <label for="register-name">Nome</label>
+                    <input type="text" id="register-name" required>
+                    <label for="register-email">E-mail</label>
+                    <input type="email" id="register-email" required>
+                    <label for="register-password">Senha</label>
+                    <input type="password" id="register-password" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="container px-4">
+                <h1 class="masthead-heading mb-0">Bion</h1>
+                <h2 class="masthead-subheading mb-0">Seu momento on com a comunidade!</h2>
+                <a class="btn btn-primary btn-xl rounded-pill mt-3" href="#scroll">Saiba Mais</a>
+            </div>
+        </header>
+        <!-- Content sections-->
+        <section id="scroll" class="content-section">
+            <div class="container px-4">
+                <div class="row gx-4 align-items-center">
+                    <div class="col-md-6 order-md-2 text-center">
+                        <img class="img-fluid rounded-circle" src="assets/img/Bion.png" alt="Bion" />
+                    </div>
+                    <div class="col-md-6 order-md-1 text-center">
+                        <h2 class="display-5">Cansado de esperar por informações confiáveis sobre seu bairro?</h2>
+                        <p>Com Bion, você tem acesso direto aos órgãos responsáveis e informações legítimas em tempo real.</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="container px-4">
+                <div class="row gx-4 align-items-center">
+                    <div class="col-md-6 text-center">
+                        <img class="img-fluid" src="assets/img/perfil2.png" alt="Perfil" />
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h2 class="display-5">Faça uma proposta!</h2>
+                        <p>Crie propostas para melhorar seu bairro e engaje a comunidade para torná-las realidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section">
+            <div class="container px-4">
+                <div class="row gx-4 align-items-center">
+                    <div class="col-md-6 order-md-2 text-center">
+                        <img class="img-fluid" src="assets/img/login2.png" alt="Interface" />
+                    </div>
+                    <div class="col-md-6 order-md-1 text-center">
+                        <h2 class="display-5">Interface intuitiva!</h2>
+                        <p>Nossa plataforma é fácil de usar e acessível para todas as idades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-4 bg-black text-white text-center">
+            <a href="evellyncarolyne12@gmail.com" class="btn btn-outline-primary mt-2">Entre em contato</a>
+            <a href="tel:+5581986426153" class="btn btn-outline-secondary mt-2">Ligue para nós</a>
+            <p class="m-0 small">Copyright &copy; Bion 2024</p>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+           <script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('sw.js')
+            }
+        </script>   
+        <script src="js/scripts.js"></script>
+        <script>
+            function openPopup(id) {
+                document.getElementById(id).style.display = 'block';
+            }
+            function closePopup(id) {
+                document.getElementById(id).style.display = 'none';
+            }
+        </script>
+    </body>
+</html>
